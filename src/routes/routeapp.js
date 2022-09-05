@@ -6,18 +6,17 @@ const fs = require('fs');
 const _ = require('underscore');
 
 
-// Metodo para eliminar un producto, vista administ
+// Metodo para eliminar un producto, vista administrador
 router.delete('/admin/producto/:sku', (req, res) => {
     const { sku } = req.params;
     // Nos permite recorrer el arreglo
-    _.each(products, (product, i) =>  {
-        if(product.sku == sku){
+    _.each(products, (product, i) => {  
+        if (product.sku == sku) {
             products.splice(i, 1);
-            res.send('El producto ha sido eliminado con exito');
             // Nos permite eliminar el producto de nuestro archivo JSON
             const json_products = JSON.stringify(products);
             fs.writeFileSync('src/products.json', json_products, 'utf-8');
-        }res.json(products);
-
-    });
+            res.send('El producto ha sido eliminado con exito');
+        } 
+    }); 
 });
