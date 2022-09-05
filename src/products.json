@@ -15,7 +15,7 @@
         {   
         "id" : "2",
         "sku": "5050",
-        "nombre": "Zapatos deportivos",
+        "nombre": "Hola deportivos",
         "precio": 250000,
         "url": "/images/feet.jpg",
         "marca": "Nike",
