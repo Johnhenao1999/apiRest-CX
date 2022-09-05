@@ -56,10 +56,8 @@ router.post('/admin/producto', (req, res) => {
         const json_products = JSON.stringify(products)
         //Permite leer la ruta de nuestro archivo products
         fs.writeFileSync('src/products.json', json_products, 'utf-8')
-        res.json(products);
-    }/* else{
-        res.status(500).json({error: 'Hubo un error en la peticion'})
-    } */
+        res.send('El producto ha sido insertado correctamente');
+    }
 
 })
 
