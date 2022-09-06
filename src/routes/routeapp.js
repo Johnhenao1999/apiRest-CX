@@ -3,12 +3,7 @@ const router = Router();
 const products = require('../products.json');
 const fs = require('fs');
 module.exports = router;
-const fs = require('fs');
 const _ = require('underscore');
-
-
-
-
 
 // Creacion del metodo listar productos, vista administrador
 router.get('/admin/producto', (req, res) => {
@@ -87,12 +82,6 @@ router.post('/admin/producto', (req, res) => {
     }
 
 })
-
-module.exports = router;
-const _ = require('underscore');
-
-
-
 
 
 // Creacion del metodo para actualizar un producto
