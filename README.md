@@ -6,6 +6,7 @@
 3. [Instalaciones que se deben realizar](#installation)
 5. [Clonar repositorio](#clonarRepo)
 6. [Codificacion nombre de las ramas](#clonarRepo)
+7. [Nota](#clonarRepo)
 ### Información general
 ***
 El proyecto  es una API rest creada en node.JS, tendra los siguientes métodos:
@@ -57,3 +58,7 @@ Aplicación movil
 - users-purchaseSummary
 - users-Buy
 
+## Nota
+
+En el archivo routeapp.js añadir const orders = require('../orders.json'); 
+Para el correcto funcionamiento del ultimo endpoint - realizar compra
