@@ -5,6 +5,7 @@
 2. [Programas correspondientes](#technologies)
 3. [Instalaciones que se deben realizar](#installation)
 5. [Clonar repositorio](#clonarRepo)
+6. [Codificacion nombre de las ramas](#clonarRepo)
 ### Información general
 ***
 El proyecto  es una API rest creada en node.JS, tendra los siguientes métodos:
@@ -40,4 +41,19 @@ $ remote: Compressing objects: 100% (8/8), done.
 $ remove: Total 10 (delta 1), reused 10 (delta 1)
 $ Unpacking objects: 100% (10/10), done.
 ```
+## Codificacion de las ramas
+
+Aplicación web
+- admin-listProduct
+- admin-consultProduct
+- admin-insertProduct
+- admin-updateProduct
+- admin-deleteProduct
+- admin-buyOrders
+
+Aplicación movil
+- users-ListProduct
+- users-consultProduct
+- users-purchaseSummary
+- users-Buy
 
