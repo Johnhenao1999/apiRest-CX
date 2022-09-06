@@ -5,7 +5,6 @@
         "nombre": "Hola deportivos",
         "precio": 35000,
         "url": "/images/feet.jpg",
-
         "marca": "Nike",
         "descripcion": "Zapatos deportivos especiales para tus días de ejercicios. Son cómodos y flexibles, con suela de gamo que ofrece mayor adherencia",
         "iva": 0.18,
@@ -27,17 +26,15 @@
         "fecha_creacion": "2022-08-31"
     },
     {
-        "sku": "6938",
-        "nombre": "JOHN deportivos",
+        "sku": "5050",
+        "nombre": "Hola deportivos",
         "precio": 250000,
         "url": "/images/feet.jpg",
         "marca": "Nike",
         "descripcion": "Zapatos deportivos especiales para tus días de ejercicios. Son cómodos y flexibles, con suela de gamo que ofrece mayor adherencia",
         "iva": 0.18,
-        "descuento": 0.30,  
+        "descuento": 0.30,
         "inventario": 6,
-
         "fecha_creacion": "2022-08-31"
-
     }
 ]
